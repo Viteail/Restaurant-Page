@@ -1,0 +1,96 @@
+@font-face {
+  font-family: RobotoRegular;
+  src: url(../style/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoBold;
+  src: url(../style/fonts/Roboto-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+:root {
+  --40-yellow: #cccc00;
+  --30-yellow: #999900;
+  --white: #ffffff;
+  --30-white: #4d4d4d;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  font-family: RobotoBold;
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+  color: var(--white);
+  background-color: var(--40-yellow);
+}
+
+.btnwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 15px;
+  background-color: var(--30-yellow);
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 1.2rem;
+  border: none;
+  width: 120px;
+  transition: 200ms;
+  color: var(--white);
+  background-color: var(--30-yellow);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.homepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bigtext {
+  font-family: RobotoBold;
+  font-size: 1.8rem;
+}
+
+.description {
+  font-family: RobotoRegular;
+  font-size: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: RobotoRegular;
+  min-height: 50px;
+  margin-top: auto;
+  background-color: var(--30-yellow);
+}
