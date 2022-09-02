@@ -1,5 +1,3 @@
-const content = document.querySelector('#content');
-
 export const createHomePage = (wrapper) => {
   const homePage = document.createElement('div');
   homePage.classList.add('homepage');

@@ -65,7 +65,17 @@ body {
 
 .wrapper {
   max-width: 1170px;
-  margin: 0 auto;
+  margin: 10px auto;
+}
+
+.cardwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 624px;
+  gap: 20px;
+  
 }
 
 .homepage {
@@ -83,6 +93,7 @@ body {
 .description {
   font-family: RobotoRegular;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .footer {
@@ -93,4 +104,11 @@ body {
   min-height: 50px;
   margin-top: auto;
   background-color: var(--30-yellow);
+}
+
+
+.card {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
 }

@@ -1,4 +1,5 @@
 import { createHomePage } from './hometab.mjs';
+import { createMenuPage } from './menutab.mjs';
 
 const content = document.querySelector('#content');
 
@@ -63,6 +64,7 @@ menuBtn.addEventListener('click', () => {
     deleteAllChildNodes(wrapper);
 
     menuBtn.classList.add('hover');
+    createMenuPage(wrapper);
   }
 });
 
