@@ -1,5 +1,6 @@
 import { createHomePage } from './hometab.mjs';
 import { createMenuPage } from './menutab.mjs';
+import { createContactPage } from './contacttab.mjs';
 
 const content = document.querySelector('#content');
 
@@ -75,6 +76,7 @@ contactBtn.addEventListener('click', () => {
     deleteAllChildNodes(wrapper);
 
     contactBtn.classList.add('hover');
+    createContactPage(wrapper);
   }
 });
 
