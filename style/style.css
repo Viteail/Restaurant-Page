@@ -18,6 +18,7 @@ body {
   --30-yellow: #999900;
   --white: #ffffff;
   --30-white: #4d4d4d;
+  --60-white: #999999;
 }
 
 #content {
@@ -65,7 +66,7 @@ body {
 
 .wrapper {
   max-width: 1170px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .cardwrapper {
@@ -73,7 +74,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 624px;
+  max-width: 700px;
   gap: 20px;
   
 }
@@ -108,7 +109,26 @@ body {
 
 
 .card {
-  border: 1px solid black;
+  display: flex;
   width: 300px;
   height: 300px;
+  cursor: pointer;
+  border: 2px solid var(--30-yellow);
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 200ms;
+}
+
+.card:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.paraname {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+  background-color: var(--40-yellow);
 }
