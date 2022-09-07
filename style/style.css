@@ -76,7 +76,6 @@ body {
   flex-wrap: wrap;
   max-width: 700px;
   gap: 20px;
-  
 }
 
 .homepage {
@@ -107,7 +106,6 @@ body {
   background-color: var(--30-yellow);
 }
 
-
 .card {
   display: flex;
   width: 300px;
@@ -131,4 +129,9 @@ body {
   text-align: center;
   margin-top: auto;
   background-color: var(--40-yellow);
+}
+
+.phonewrapper {
+  display: flex;
+  gap: 5px;
 }
