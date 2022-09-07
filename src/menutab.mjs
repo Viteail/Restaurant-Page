@@ -16,21 +16,21 @@ export const createMenuPage = (wrapper) => {
     }
 
     cardStorage[0].style.backgroundImage =
-      "url('images/BigMac.png')";
+      "url('style/images/BigMac.png')";
     cardStorage[1].style.backgroundImage =
-      "url('images/McChicken.png')";
+      "url('style/images/McChicken.png')";
     cardStorage[2].style.backgroundImage =
-      "url('images/CheeseBurger.png')";
+      "url('style/images/CheeseBurger.png')";
     cardStorage[3].style.backgroundImage =
-      "url('images/ChickenMcWrap.jpg')";
+      "url('style/images/ChickenMcWrap.jpg')";
     cardStorage[4].style.backgroundImage =
-      "url('images/FrenchFries.png')";
+      "url('style/images/FrenchFries.png')";
     cardStorage[5].style.backgroundImage =
-      "url('images/CherryPie.png')";
+      "url('style/images/CherryPie.png')";
     cardStorage[6].style.backgroundImage =
-      "url('images/LemonadeStrawberry.png')";
+      "url('style/images/LemonadeStrawberry.png')";
     cardStorage[7].style.backgroundImage =
-      "url('images/AppleJuice.jpg')";
+      "url('style/images/AppleJuice.jpg')";
 
     return createParaDivs();
   };
