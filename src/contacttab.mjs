@@ -14,7 +14,7 @@ export const createContactPage = (wrapper) => {
   wrapper.appendChild(phoneWrapper);
 
   const phoneIcon = document.createElement('img');
-  phoneIcon.src = '../dist/style/images/phone.svg';
+  phoneIcon.src = 'images/phone.svg';
   phoneIcon.style.width = '25px';
 
   const paraNumber = document.createElement('p');
