@@ -7,7 +7,7 @@ const content = document.querySelector('#content');
 // header div
 const header = document.createElement('div');
 header.classList.add('header');
-header.textContent = 'Obama food';
+header.textContent = 'Obama Hungry';
 content.appendChild(header);
 
 // btn-wrapper div
